@@ -1,0 +1,29 @@
+defaults:
+  - _self_
+
+max_episodes: 80
+name: rgb_camera
+usd_path: "/home/ubuntu/IL_my/assert/chemistry_lab/table6.usd"
+obj_path: "/World/beaker"  
+sub_obj_path: "/World/beaker/mesh"
+
+camera_1:
+  prim_path: "/World/Camera1"
+  name: "camera1"
+  translation: [1.76787, -0.62, 1.6675]
+  resolution: [480, 480]
+  focal_length: 4
+  orientation: [0.65903, 0.25406, 0.25446, 0.66059] # w,x,y,z
+  image_type: "rgb"  # 可选 "rgb" 或 "depth"
+
+camera_2:
+  prim_path: "/World/Camera2"
+  name: "camera2"
+  translation: [-0.7221, -0.6986, 1.52957]
+  resolution: [480, 480]
+  focal_length: 4
+  orientation: [0.707, 0, 0, -0.707]
+  image_type: "rgb"    # 可选 "rgb" 或 "depth"
+
+hydra:
+  output_subdir: null

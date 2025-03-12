@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/ubuntu/IsaacLab/source/isaaclab",
+        "/home/ubuntu/IsaacLab/source/isaaclab_tasks",
+        "/home/ubuntu/anaconda3/envs/isaaclab2/lib/python3.10/site-packages/isaacsim/exts/isaacsim.core.api/isaacsim/core/api",
+        "/home/ubuntu/IsaacLab/source/isaaclab_assets/isaaclab_assets/robots"
+    ]
+}
